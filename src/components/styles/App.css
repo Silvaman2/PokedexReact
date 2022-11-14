@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Pokemon GB;
+    src: url('C:\Users\silva\Desktop\gaming\JS\pokedex\src\assets\fonts\PokemonGb-RAeo.ttf');
+}
+
+* {
+    font-family:'Pokemon GB';
+}
+
+
+p, sup {
+    text-shadow: 2.2px 0px 0px rgb(154,162,161),
+        0px 2.2px 0px rgb(154,162,161),
+        2.2px 2.2px 0px rgb(154,162,161);
+
+}
+
+a {
+    text-decoration: none;
+    cursor:default;
+    image-rendering: pixelated;
+}

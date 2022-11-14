@@ -1,0 +1,19 @@
+.sidebarcontainer {
+    background-image: 
+    repeating-linear-gradient(to bottom, 
+    rgb(0, 0, 0, 0.15), 
+    rgb(0, 0, 0, 0.15) 2px, 
+    transparent 3px 4px),
+    linear-gradient(to right, 
+        rgb(249, 64, 64) 68px, 
+        rgb(255, 123, 123) 68px 73px,
+        rgb(247,232,201) 73px
+        );
+    position: fixed;
+    width:25%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+}

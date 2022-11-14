@@ -1,0 +1,31 @@
+.pokemonlistcontainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.pokemonbutton {
+    color: rgb(68, 72, 68);
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+    padding-left: 2px;
+    background: none;
+    border:none;
+    border-bottom: 2px dotted rgb(68, 72, 68);
+}
+
+p, sup {
+    font-size: large;
+    position: relative;
+    top: 10%;
+}
+
+.pokemonlistid {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pokemonlistsprite {
+    background-image: radial-gradient(white 25px, transparent 25px);
+}
